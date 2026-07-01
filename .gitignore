@@ -1,0 +1,44 @@
+# ─────────────────────────────────────────────────────────────
+# Unreal Engine 5 — archivos generados / no versionar
+# ─────────────────────────────────────────────────────────────
+
+# Binarios y build compilados
+Binaries/
+!Binaries/**/*.dll.disabled
+Build/
+!Build/*.cs
+Intermediate/
+DerivedDataCache/
+
+# Estado local del editor (por usuario, no compartir)
+Saved/
+Saved/Autosaves/
+Saved/Backup/
+
+# IDE / toolchain
+.vs/
+.vscode/
+.idea/
+*.VC.db
+*.VC.opendb
+*.sln
+*.suo
+*.opensln
+*.sdf
+*.opensdf
+*.xcodeproj
+*.xcworkspace
+compile_commands.json
+
+# Archivos temporales del SO
+.DS_Store
+Thumbs.db
+
+# Precompiled headers y objetos
+*.obj
+*.pch
+*.pdb
+*.o
+
+# Plugins de terceros bajados (definir caso por caso más adelante)
+# Plugins/Marketplace/
